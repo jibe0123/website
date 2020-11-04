@@ -9,7 +9,7 @@ import { splashScreen } from "../config"
 
 const IndexPage = ({ data }) => (
   <Layout splashScreen={splashScreen}>
-    <SEO title="Portfolio Minimal - A Gatsby Starter." />
+    <SEO title="👋 Welcome to my personal website." />
     <Hero content={data.hero.edges} />
   </Layout>
 )
